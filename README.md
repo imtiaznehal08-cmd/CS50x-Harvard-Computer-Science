@@ -37,5 +37,5 @@ Click the Green Flag to start the simulation.
 
 Acknowledgments
 
-This project was completed as the Final Project for CS50x: Introduction to Computer Science. Special thanks to Professor David J. Malan and the CS50 staff at Harvard University for an incredible learning journey.
+This project was completed as the Week 0 Project for CS50x: Introduction to Computer Science. Special thanks to Professor David J. Malan and the CS50 staff at Harvard University for an incredible learning journey.
 This project was completed as the Final Project for CS50x: Introduction to Computer Science. Special thanks to the CS50 staff at Harvard University for an incredible learning journey.
