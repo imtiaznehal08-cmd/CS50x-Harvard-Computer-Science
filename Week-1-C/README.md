@@ -55,5 +55,3 @@ Learning Outcomes
 Mastered terminal-based input/output.
 Developed a deeper understanding of integer division and the modulo operator (%) for digit manipulation.
 Practiced creating reusable code using custom functions (as seen in print_row in mario.c).
-
-Practiced creating reusable code using custom functions (as seen in print_row in mario.c).
