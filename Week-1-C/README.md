@@ -1,6 +1,13 @@
 Week 1: C Basics
 This directory contains my solutions for the Problem Set 1 of Harvard's CS50 Introduction to Computer Science. These projects focus on the fundamental building blocks of C, including data types, conditional logic, loops, and custom functions.
 
+🛠 Skills Demonstrated
+Mathematics: Modular arithmetic, Checksum logic.
+
+Logic: Nested loops, Conditional branching.
+
+Tooling: CLI (Command Line Interface), Makefiles.
+
 Projects Overview
 1. Hello
 A simple introductory program that demonstrates basic input and output in C.
