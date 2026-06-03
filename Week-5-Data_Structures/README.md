@@ -1,4 +1,3 @@
-Here is a complete, polished README.md template tailored for CS50x Week 5 (Data Structures). It maintains the same crisp, professional, and readable structure as your Week 4 documentation, highlighting the massive leap from memory management to complex data structures like linked lists, tries, and hash tables.
 
 🏗️ CS50x Week 5: Data Structures
 This repository contains my implementations for the Week 5 Problem Set, focusing on abstract data structures, dynamic memory management, pointer manipulation, and optimizing algorithmic runtime efficiency (O(1) vs. O(N)).
