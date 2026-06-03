@@ -1,16 +1,16 @@
 
-🏗️ CS50x Week 5: Data Structures
+🏗️ **CS50x Week 5: Data Structures**
 This repository contains my implementations for the Week 5 Problem Set, focusing on abstract data structures, dynamic memory management, pointer manipulation, and optimizing algorithmic runtime efficiency (O(1) vs. O(N)).
 
-📂 Projects
-🌳 Inheritance
+📂 **Projects**
+🌳 **Inheritance**
 Goal: Simulate the inheritance of blood types over three generations of a family.
 
 Implementation: Utilizes a custom person struct containing pointers to two parent structs. Dynamically allocates memory for a family tree of a specified generation depth, assigns alleles randomly based on genetic inheritance rules, and recursively frees the memory to prevent leaks.
 
 File: inheritance.c
 
-🔤 Speller
+🔤 **Speller**
 Goal: Build the fastest possible spell-checker that loads a dictionary of words into memory and checks a text file for misspelled words.
 
 Implementation: Implemented a spell-checker using a custom Hash Table (or Trie, depending on your choice) to minimize lookup time. Designed a deterministic hash function to map strings to buckets and handled collisions using separate chaining with linked lists.
@@ -28,13 +28,11 @@ Trie (Retrieval Tree)	O(L) where L is word length	O(L) where L is word length	Hi
 **🛠️ Usage**
 Each program can be compiled and executed using the standard CS50 tools:
 
-Compiling and Running Inheritance
-**Bash**
+**Compiling and Running Inheritance**
 make inheritance
 ./inheritance
 
-Compiling and Running Speller
-**Bash**
+**Compiling and Running Speller**
 make speller
 ./speller dictionaries/large texts/lalaland.txt
 
