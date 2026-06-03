@@ -3,7 +3,7 @@
 This folder contains my implementations for the Week 4 Problem Set, focusing on low-level memory management, pointer arithmetic, and file I/O in C.
 
 **📂 Projects**
-1. Volume
+1. **Volume**
 Goal: Adjust the volume of a .wav audio file by a scaling factor.
 
 Implementation: Reads the 44-byte WAV header into a buffer, followed by iterating through 16-bit audio samples, scaling them, and writing to a new file.
@@ -25,7 +25,7 @@ Blur: 3×3 box blur via neighbor-averaging.
 
 File: helpers.c
 
-3. Recover
+3. **Recover**
 Goal: A forensic tool that recovers "deleted" JPEGs from a memory card image.
 
 Implementation: Scans a .raw file in 512-byte blocks, identifying JPEG start signatures (0xff 0xd8 0xff) and carving out files until the next signature is found.
@@ -35,7 +35,6 @@ File: recover.c
 🛠️ **Usage**
 Each program can be compiled using the make command provided in the CS50 environment:
 
-Bash
  Example: Compiling and running Filter
 make filter
 ./filter -g input.bmp output.bmp
