@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}History{% endblock %}
+
+{% block main %}
+<table class="table table-striped table-hover mx-auto w-auto">
+    <thead class="table-dark">
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for t in transactions %}
+        <tr>
+            <td>{{ t.symbol }}</td>
+            <td>{{ t.name }}</td>
+            <td>
+                {% if t.type == "buy" %}
+                    <span class="badge bg-success">BUY</span>
+                {% else %}
+                    <span class="badge bg-danger">SELL</span>
+                {% endif %}
+            </td>
+            <td>{{ t.shares | abs }}</td>
+            <td>{{ t.price | usd }}</td>
+            <td>{{ t.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
