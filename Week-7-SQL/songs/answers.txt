@@ -1,0 +1,18 @@
+1. Audio Aura Characterization:
+The listener's top 100 songs from 2018 have an average energy of 0.659,
+valence of 0.484, and danceability of 0.716. This suggests an aura that is
+moderately energetic and highly danceable, but with a somewhat neutral or
+bittersweet emotional tone. The listener tends to gravitate toward music
+that gets you moving, but not necessarily music that feels purely happy.
+
+2. Limitations and Better Approaches:
+Averaging all 100 songs equally does not reflect how often each song was
+actually played. A song streamed 500 times should carry more weight than
+one streamed 5 times. A weighted average by play count would be more
+representative.
+
+Additionally, the mean can be skewed by outliers — a few extremely high-energy
+or low-energy songs can shift the average away from what the listener
+actually prefers most. Using the median, or focusing only on the top 10
+most-played songs, might give a more accurate picture of the listener's
+true audio aura.
