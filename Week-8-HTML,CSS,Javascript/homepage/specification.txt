@@ -1,0 +1,74 @@
+CS50x Problem Set 8 — Homepage Specification
+Nehal Imtiaz — BSIT Student, Cybersecurity & AI Enthusiast
+============================================================
+
+HTML TAGS USED (10 distinct tags, beyond html/head/body/title):
+----------------------------------------------------------------
+1.  <nav>        — Responsive navigation bar across all pages
+2.  <header>     — Hero section on index.html
+3.  <section>    — Content sections on each page
+4.  <footer>     — Page footer across all pages
+5.  <a>          — Hyperlinks (navigation, social, footer)
+6.  <button>     — Interactive buttons (quote rotator, form submit, filter)
+7.  <input>      — Text and email inputs on contact.html
+8.  <select>     — Dropdown subject selector on contact.html
+9.  <textarea>   — Message box on contact.html
+10. <blockquote> — Featured cybersecurity quote on index.html
+11. <ul> / <li>  — Navbar links list
+12. <label>      — Form labels on contact.html
+
+CSS SELECTORS USED (5 or more distinct selectors):
+----------------------------------------------------
+1.  .site-nav              — Styles the navbar element
+2.  .hero-title            — Styles the large hero heading
+3.  .project-card:hover    — Hover lift effect on project cards
+4.  #quote-text            — Targets the quote element by ID
+5.  .intro-card            — Styles the three intro section cards
+6.  a                      — Tag selector for all anchor links
+7.  body                   — Tag selector for global font and background
+
+CSS PROPERTIES USED (5 or more distinct properties):
+------------------------------------------------------
+1.  background-color   — Dark theme backgrounds throughout
+2.  font-family        — Playfair Display (headings) & DM Sans (body)
+3.  letter-spacing     — Applied to labels, tags, and uppercase text
+4.  transition         — Smooth hover/focus transitions
+5.  border             — 1px borders for cards, inputs, navbar
+6.  transform          — translateY hover lift on cards and buttons
+7.  animation          — fadeIn, fadeInUp, scrollPulse, shake keyframes
+8.  padding            — Section spacing throughout
+9.  margin             — Layout spacing
+
+BOOTSTRAP 5 FEATURES USED:
+----------------------------
+- Navbar (responsive collapsible navbar with navbar-expand-md, data-bs-toggle)
+- Grid system (container, row, col-md-*, col-lg-*)
+- Button group (filter buttons on projects.html)
+- Accordion (skill/interest categories on about.html, data-bs-toggle)
+- Alert component (success message on contact.html)
+- Responsive utilities (d-flex, text-center, ms-auto, mb-*, me-3)
+- Form controls (form-control, form-select, form-label, mb-3)
+
+JAVASCRIPT FEATURES USED:
+--------------------------
+1. Quote rotator — Cycles through an array of cybersecurity & inspiration quotes
+   with a fade transition when the user clicks "New Quote."
+2. Form validation & simulated submission — Validates all contact form fields,
+   shakes invalid inputs, and shows a success message on valid submission.
+3. Project filter — Filters project cards by category (All/Web/Security/Python/C)
+   using data-category attributes, toggling display and updating active button.
+4. Scroll reveal — Uses IntersectionObserver to animate cards and timeline
+   items into view with staggered fade-in-up transitions on scroll.
+5. Navbar scroll effect — Highlights the navbar border-bottom accent on scroll.
+6. Time-based greeting — Reads the current hour and briefly shows a
+   contextual greeting in the hero subtitle before fading back to the tagline.
+
+PAGES (4 HTML pages with full cross-linking):
+----------------------------------------------
+1. index.html    — Home / hero page with intro cards and quote rotator
+2. about.html    — Bio, skills accordion, hobbies, and journey timeline
+3. projects.html — Project grid with Security/Web/Python/C category filter
+4. contact.html  — Contact form with validation and social links
+
+All 4 pages link to each other through the persistent navigation bar.
+Bootstrap 5.3.8 is used (upgraded from spec's 4.5.3 — data-bs-* attributes used).
